@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(218, 28%, 13%);
+  width: 100%;
+  align-items: center;
+}
