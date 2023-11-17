@@ -1,13 +1,26 @@
+.stay-productive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.stay-productive__image {
+    width: 100%;
+}
+
+.stay-productive__text {
+    width: 550px;
+}
+
 .stay-productive__link {
     display: inline-flex;
     align-items: center;
-    border-bottom: 1px solid hsl(176, 68%, 64%);
     gap: 5px;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
     height: 30px;
 }
 
 .stay-productive__link--text {
     color: hsl(176, 68%, 64%);
 }
-
-
