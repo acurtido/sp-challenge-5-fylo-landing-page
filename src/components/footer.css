@@ -1,0 +1,35 @@
+.footer {
+    background-color: hsl(216, 53%, 9%);
+}
+
+.footer__content {
+    display: flex;
+}
+
+.footer__location {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 25%;
+}
+
+.footer__info {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 10px
+}
+
+.footer__links {
+    width: 25%;
+}
+
+.footer__socials {
+    width: 25%;
+}
