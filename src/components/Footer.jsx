@@ -40,9 +40,9 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className='footer__socials'>
-                        <i className="fab fa-facebook-square"></i>
-                        <i className="fab fa-twitter"></i>
-                        <i className="fab fa-instagram"></i>
+                        <i className="fab fa-facebook-square circulo"></i>
+                        <i className="fab fa-twitter circulo" ></i>
+                        <i className="fab fa-instagram circulo"></i>
                     </div>
                 </div>
             </div>
