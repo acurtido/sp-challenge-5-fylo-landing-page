@@ -20,8 +20,7 @@ export default function StayProductive() {
 
                 <div className="stay-productive__link">
                     <p className='stay-productive__link--text'> See how Fylo works </p>
-                    <img src={flecha} alt="" />
-                    <i className="fa-brands fa-youtube fa-bounce" style={{color: 'green'}}></i>
+                    <img src={flecha} alt="flecha" />
                 </div>
             </div>
 
