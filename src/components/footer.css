@@ -1,8 +1,10 @@
 .footer {
     background-color: hsl(216, 53%, 9%);
+    padding-top: 200px;
+    width: calc(100vw - 20px);
 }
 
-.footer__content {
+.footer__sections {
     display: flex;
 }
 
@@ -10,7 +12,7 @@
     display: flex;
     align-items: flex-start;
     gap: 10px;
-    width: 25%;
+    width: 300px;
 }
 
 .footer__info {
@@ -22,14 +24,21 @@
 .footer__contact {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 300px;
     gap: 10px
 }
 
 .footer__links {
+    display: flex;
+    flex-direction: row;
     width: 25%;
+    gap: 300px;
+}
+
+.footer__links li {
+    list-style-type: none;
 }
 
 .footer__socials {
-    width: 25%;
+    width: 300px;
 }
