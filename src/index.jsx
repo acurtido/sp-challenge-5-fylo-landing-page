@@ -7,6 +7,7 @@ import StayProductive from './components/StayProductive'
 import Footer from './components/Footer'
 import Features from './components/Features'
 import Testimonials from './components/Testimonials'
+import EarlyAccess from './components/EarlyAccess'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Features />
     <StayProductive />
     <Testimonials />
+    <EarlyAccess />
     <Footer />
   </React.StrictMode>,
 )
