@@ -1,9 +1,9 @@
-.container {
+.earlyAccess {
     height: 150px;
     background-color: hsl(218, 28%, 13%);
 }
 
-.box {
+.earlyAccess__container{
     margin: 0 auto;
     width: 50vw;
     background-color: hsl(217, 28%, 15%);

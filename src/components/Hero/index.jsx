@@ -1,3 +1,4 @@
+import Button from '../Button'
 import './styles.css'
 
 export default function Hero(props) {
@@ -6,7 +7,7 @@ export default function Hero(props) {
             <img src="images/illustration-intro.png" alt="" />
             <h1 className="hero__titulo"> All your files in one secure location, <br /> accesible anywhere</h1>
             <p className="hero__texto">Fylo stores all your most important files in one secure location. <br/> Access them wherever you need, share and collaborate with <br/> friends family, and co-workers</p>
-            <button className="hero__boton">Get Started</button>
+            <Button texto="Get started" />
         </div>
     )
 }

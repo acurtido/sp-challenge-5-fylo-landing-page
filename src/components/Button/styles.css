@@ -1,0 +1,8 @@
+.hero__boton {
+    background-color: hsl(176, 68%, 64%);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 80px;
+    font-size: 1rem;
+    font-weight: 700;
+}

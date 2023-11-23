@@ -1,19 +1,22 @@
 import React from 'react'
-import './styles.css'
+import Button from '../Button'
+import styles from './styles.module.css'
 
 export default function EarlyAccess() {
     const handleSubmit = e => {
         e.preventDefault()
+        alert('Formulario enviado');
     }
 
     return (
-        <div className="container">
-            <div className='box'>
+        <div className={styles.earlyAccess}>
+            <div className={styles.earlyAccess__container}>
                 <h1>Get early access today</h1>
-                <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have <br/> any questions, our support team would be happy to help you.</p>
-                <form className='formulario' onSubmit={handleSubmit}>
+                <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have <br />
+                    any questions, our support team would be happy to help you.</p>
+                <form className={styles.formulario} onSubmit={handleSubmit}>
                     <input type="email" />
-                    <button>Get Started For Free</button>
+                    <Button texto="Get Started For Free" />
                 </form>
             </div>
         </div>

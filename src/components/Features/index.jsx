@@ -4,8 +4,8 @@ import './styles.css'
 export default function Features() {
     return <div className='features'>
         <div className='features__content'>
-            {features.map(data => (
-                <div className='features__item'>
+            {features.map((data, index) => (
+                <div key={index} className='features__item'>
                     <img src={data.image} alt={data.title} />
                     <h2>{data.title}</h2>
                     <p>{data.description}</p>
