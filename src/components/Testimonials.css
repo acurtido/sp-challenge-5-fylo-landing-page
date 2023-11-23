@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: hsl(218, 28%, 13%);
 }
 
 .testimonials__content {

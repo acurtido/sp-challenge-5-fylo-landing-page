@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     gap: 40px;
+    background-color: hsl(218, 28%, 13%);
 }
 
 .stay-productive__image {

@@ -1,5 +1,6 @@
 .container {
-    height: 150px
+    height: 150px;
+    background-color: hsl(218, 28%, 13%);
 }
 
 .box {
