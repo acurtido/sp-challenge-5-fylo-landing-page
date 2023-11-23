@@ -25,6 +25,7 @@
     padding: 30px;
     gap: 20px;
     border-radius: 5px;
+    box-shadow:10px 10px 10px 0px hsl(217, 28%, 15%);
 }
 
 .testimonial__image {

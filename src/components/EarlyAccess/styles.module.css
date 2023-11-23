@@ -17,6 +17,7 @@
     align-items: center;
     gap: 20px;
     text-align: center;
+    box-shadow:10px 10px 10px 0px hsl(217, 50%, 7%);
 }
 
 .formulario {

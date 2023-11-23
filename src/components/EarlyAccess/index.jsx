@@ -18,7 +18,7 @@ export default function EarlyAccess() {
                 <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have <br />
                     any questions, our support team would be happy to help you.</p>
                 <form className={styles.formulario} onSubmit={handleSubmit}>
-                    <InputMail onChange={e => setMail(e.target.value)} />
+                    <InputMail ancho={300} onChange={e => setMail(e.target.value)} />
                     <Button texto="Get Started For Free" />
                 </form>
             </div>
