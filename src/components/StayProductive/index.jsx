@@ -1,6 +1,6 @@
 import flecha from '/icons/icon-arrow.svg';
 import stayProductiveImage from '/images/illustration-stay-productive.png';
-import './stay-productive.css'
+import './styles.css'
 
 export default function StayProductive() {
     return (

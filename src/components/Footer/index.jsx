@@ -1,4 +1,4 @@
-import './footer.css';
+import './styles.css'
 import imagenFooter from '/icons/logo.svg'
 import imagenLocation from '/icons/icon-location.svg'
 import imagenPhone from '/icons/icon-phone.svg'

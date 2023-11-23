@@ -1,5 +1,5 @@
-import testimonials from "../data/testimonials.json";
-import './testimonials.css';
+import testimonials from "../../data/testimonials.json";
+import './styles.css'
 
 export default function Testimonials() {
     return (

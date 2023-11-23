@@ -1,4 +1,4 @@
-import './navigation.css'
+import './styles.css'
 
 export default function Navigation(props) {
     return (<nav className="navegacion">

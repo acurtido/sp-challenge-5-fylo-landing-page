@@ -1,5 +1,5 @@
-import features from '../data/features.json';
-import './features.css';
+import features from '../../data/features.json';
+import './styles.css'
 
 export default function Features() {
     return <div className='features'>

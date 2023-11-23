@@ -1,5 +1,5 @@
 import React from 'react'
-import './early_access.css'
+import './styles.css'
 
 export default function EarlyAccess() {
     return (
