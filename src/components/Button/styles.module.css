@@ -3,6 +3,11 @@
     border: none;
     border-radius: 50px;
     padding: 10px 80px;
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight: 700;
+}
+
+.hero__boton:hover {
+    background-color: hsl(176, 68%, 74%);
+    cursor: pointer;
 }

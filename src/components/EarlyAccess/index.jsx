@@ -1,11 +1,14 @@
 import React from 'react'
 import Button from '../Button'
+import InputMail from '../InputMail'
 import styles from './styles.module.css'
 
 export default function EarlyAccess() {
+    const [mail, setMail] = React.useState('')
+
     const handleSubmit = e => {
         e.preventDefault()
-        alert('Formulario enviado');
+        alert('Formulario enviado')
     }
 
     return (
@@ -15,7 +18,7 @@ export default function EarlyAccess() {
                 <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have <br />
                     any questions, our support team would be happy to help you.</p>
                 <form className={styles.formulario} onSubmit={handleSubmit}>
-                    <input type="email" />
+                    <InputMail onChange={e => setMail(e.target.value)} />
                     <Button texto="Get Started For Free" />
                 </form>
             </div>
